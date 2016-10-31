@@ -12,7 +12,7 @@ There are also some methods that wrap two methods in one call, like "advance and
 
 <h2>Easy to use</h2>
 Example file is provided. The basic usage is:
-<code>
+```
 $arrExample = [1,2,3,4];
 $arrCircular = new circularArray($arrExample);
 
@@ -20,6 +20,6 @@ for ($i=0; $i<10; $i++) {
 	echo $arrCircular->getCurrentValue();
 	$arrCircular->next();
 }
-</code>
+```
 
 The expected output is "1234123412" (walk 10 times through the "1,2,3,4" array).
